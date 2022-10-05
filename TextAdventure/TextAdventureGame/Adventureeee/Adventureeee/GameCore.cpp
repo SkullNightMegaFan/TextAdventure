@@ -242,7 +242,7 @@ void UpdateGame(PlayerState& playerState, WorldState& worldState)
 			printf("There's a time and a place for everything, and it's definitely not time to sleep on the floor.\n\nMaybe one of your friends will allow you to stay the night\n");
 		}
 	}
-	if (playerState.CurrentRoomIndex = 6)
+	if (playerState.CurrentRoomIndex == 5)
 	{
 		printf("\nI did not think you would actually notice that option!\n\nYou did clear the game,but if you want the full experience feel free to replay the game.\n\n");
 		playerState.WantsToExit = true;
